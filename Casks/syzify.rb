@@ -1,9 +1,9 @@
 cask "syzify" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.12.0"
-  sha256 arm:   "1f2dd73027e1329a9b69e78f33a18b8285666931e89b3a1339f6b8f6e90b9416",
-         intel: "597f5d702d1ffd15d928827ab5e3b5bf970af041e2550eec9d43d8fdead68556"
+  version "0.13.1"
+  sha256 arm:   "86f1bcd4f897aeafa6ad75766a2644be37e769e1bb8a11f103915305b442dede",
+         intel: "3881c6281e005ffa041f634fcb543356d5e4c4f7e152de83311d7bd81cac6684"
 
   url "https://github.com/Stasyanz/syzify/releases/download/v#{version}/Syzify_#{version}_#{arch}.dmg"
   name "Syzify"
